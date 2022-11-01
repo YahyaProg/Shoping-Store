@@ -1,0 +1,41 @@
+.Navbar-header{
+    width: 95%;
+    margin: 12px auto;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    pointer-events:visible;
+    top: 0;
+    background-color: var(--clr-bcg);
+    z-index: 10;
+
+}
+
+.Navbar-header-row-one{
+    display: flex;
+    align-items: center;
+  
+}
+.Navbar-header-row-two{
+    margin-top: 25px;
+    width: 100%;
+}
+
+
+@media(max-width:767px){
+    .Navbar-header-row-one{
+        order: 2;
+        padding: 0;
+        margin-top: 10px;
+    }
+    .Navbar-header-row-two{
+        order: 1;
+        
+    }
+    .navbar-header-logo-row-one{
+        display: none;
+    }
+    .Navbar-header{
+        width: 90%;
+    }
+}

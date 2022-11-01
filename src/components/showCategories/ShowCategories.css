@@ -1,0 +1,537 @@
+.title-category{
+    display: flex;
+    justify-content: center;
+}
+.categories-banner{
+    height: auto;
+    margin-bottom: 20px;
+}
+.title-category h1{
+    color: var(--clr-font);
+}
+.Category-banner-row-1{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 1.5rem;
+    height: 335px;
+    margin-top: 20px;
+}
+.digital-banner{
+    width: 100%;
+    height: 100%;
+    background-color: var(--clr-bcg-digital-category);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+}
+.digital-banner-container{
+    height: 80%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.digital-banner-describtion{
+    width: 70%;
+}
+.digital-banner-describtion p{
+    font-size: 16px;
+    color: var( --clr-font);
+    width: 100%;
+    margin-bottom: 5px;
+}
+.digital-banner-describtion h2{
+    margin-bottom: 5px;
+        color: var( --clr-font);
+}
+.digital-btn{
+    padding: 10px 20px;
+    width: 65%;
+    margin-top: 20px;
+}
+.digital-img{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 50%;
+}
+.digital-img img{
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  
+}
+.digital-img img:hover{
+    scale: 0.9
+}
+
+.fashion-banner{
+    width: 100%;
+    height: 100%;
+    background-color: var( --clr-fasion-category);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fasion-banner-cotainer{
+    width: 90%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fasion-banner-describtion{
+    width: 65%;
+
+}
+.fasion-btn{
+
+    padding: 10px 20px;
+    width: 65%;
+    margin-top: 10px;
+}
+
+.fasion-image{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: 50%;
+}
+.fasion-image img{
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  
+}
+.fasion-image img:hover{
+    scale: 0.9;
+}
+.fasion-banner-describtion h2{
+    color: var(--clr-font);
+}
+.fasion-banner-describtion p{
+    color: var(--clr-font);
+    font-size: 16px;
+}
+.sports-biuty-banner{
+    width: 100;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.biuty-banner{
+    width: 100%;
+    height: 48%;
+    background-color: var( --clr-bcg-biuty-category);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.biuty-banner-container{
+    width: 95%;
+    height: 92%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.biuty-banner-describtion{
+    width: 75%;
+    height: 100%;
+
+}
+.biuty-banner-describtion h2{
+    color: var(--clr-font);
+    margin-bottom: 2px;
+}
+.biuty-banner-describtion p{
+    color: var(--clr-font);
+    margin-bottom: 2px;
+}
+.biuty-btn{
+    width: 50%;
+   padding: 5px;
+    margin-top: 15px;
+
+  }
+  .biuty-banner-image{
+    width:25%;
+    height: 90%;
+
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+  }
+  .biuty-banner-image img{
+    width: 100%;
+    height: 60%;
+    transition: all 0.3s ease;
+  }
+  .biuty-banner-image img:hover{
+    scale: 0.9;
+  }
+  .sport-banner{
+    width: 100%;
+    display: flex;
+    height: 48%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: var( --clr-bcg-sport-catrgory);
+  }
+
+.banner-sport-container{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.banner-sport-img{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+.banner-sport-img img{
+    width: 100%;
+    height: 70%;
+    transition: all 0.3s ease;
+}
+.banner-sport-img img:hover{
+    scale: 0.9;
+}
+
+.banner-sport-describtion{
+    width: 65%;
+    height: 100%;
+}
+.btn-sport{
+    padding: 7px 15px;
+    margin-top: 7px;
+}
+
+.category-banner-row-2{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 6fr 2fr 2fr;
+    gap: 10px;
+    width: 100%;
+    height: auto;
+}
+
+.home-banner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: var( --clr-bcg-house-category);
+}
+.home-banner-container{
+    width: 95%;
+    height:95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.home-banner-describtion{
+    width: 45%;
+    height: 75%;
+
+}
+.home-banner-describtion h1{
+    color: var(--clr-font);
+}
+.home-banner-describtion p{
+    color: var(--clr-font);
+    font-size: 18px;
+}
+.btn-home{
+    padding: 10px 20px;
+}
+.home-banner-image{
+    width: 50%;
+    height: 70%;
+}
+.home-banner-image img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.3s ease;
+}
+
+.home-banner-image img:hover{
+    scale: 0.9;
+}
+
+.toy-banner{
+    width: 100%;
+    height: 100%;
+    background-color: var(--clr-bcg-toys-category);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.toy-banner-container{
+    width: 90%;
+    height: 95%;
+}
+
+.toy-banner-describtion{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.toy-banner-describtion{
+    color: var(--clr-font);
+}
+.toy-banner-describtion p{
+   font-size:16px ;
+    text-align: center;
+    color: var(--clr-font);
+}
+.toy-banner-describtion img{
+    transition: all 0.3s ease;
+    width: 60%;
+    height: 40%;
+}
+.toy-banner-describtion img:hover{
+    scale: 0.9;
+}
+.toy-btn{
+    margin-top: 15px;
+    padding: 7px 10px;
+}
+
+.stationary{
+    width: 100%;
+    height: 100%;
+
+    background-color: var(--clr-bcg-stationery-category);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.stationary-container{
+    width: 95%;
+    height:95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.stationary-container h2{
+    color: var(--clr-font);
+    text-align: center;
+}
+.stationary-container p{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0;
+}
+.stationary-container img{
+    transition: all 0.3s ease;
+    margin-bottom: 0;
+    width: 100px;
+    height:150px;
+
+}
+.stationary-container img:hover{
+    scale: 0.9;
+}
+
+.books-btn{
+    padding: 5px;
+    margin-top: 15px;
+}
+
+
+
+.category-icon{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+.category-icon img{
+    margin-bottom: 7px;
+}
+
+.categories-icons{
+    text-align: center;
+}
+
+.category-icon h3{
+    color: var(--clr-font);
+}
+
+/* ............................................ */
+
+@media(max-width:1367px){
+    .fasion-btn{
+        width: 100%;
+    }
+    .digital-btn{
+        width: 100%;
+    }
+    .toy-btn{
+        margin-top: 0;
+    }
+    .stationary-container p{
+        font-size: 16px;
+        margin-top: 0;
+    }
+    .stationary-container h2{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    
+
+}
+@media(max-width:1520px){
+    .books-btn{
+        margin-top: 5px;
+    }
+    .stationary-container img{
+        height: 120px;
+        width: 80px;
+    }
+
+}
+@media(max-width:1456px){
+    .stationary-container p{
+        margin-top: 0;
+    }
+    .stationary-container h2{
+        margin-bottom: 0;
+    }
+}
+@media(max-width:1347px){
+    .stationary-container img{
+        height: 90px;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:1325px){
+.books-btn{
+    padding: 3px;
+}
+  
+}
+
+@media(max-width:1302px){
+    .toy-banner-describtion p{
+        font-size: 14px;
+        margin-top: 0;
+    }
+    .toy-banner-describtion h2{
+        margin-bottom: 0;
+    }
+   
+}
+@media(max-width:1255px){
+    .home-banner-describtion h1{
+        margin-bottom: 5px;
+        margin-top: 0;
+        font-size: 20px;
+    }
+    .home-banner-describtion p{
+        font-size: 18px;
+    }
+    .stationary-container img{
+        height: 75px;
+        width: 60px;
+        margin-bottom: 0;
+    }
+  }
+  
+  @media(max-width:1165px){
+        .biuty-btn{
+            width: 60%;
+            margin-top: 7px;
+        }
+        .btn-sport{
+            margin-top: 0;
+        }
+        .toy-btn{
+            padding: 2px;
+        }
+        .toy-banner-describtion img{
+            width: 100px;
+            height: 70px;
+        }
+  }
+
+  @media(max-width:1036px){
+        .categories-banner{
+            display: none;
+        }
+        .categories-icons{
+           
+ 
+                display: grid !important;
+                grid-template-columns: repeat(4 , 1fr);
+                text-align: center;
+                margin: 0 auto;
+                gap: 15px;
+                width: 100%;
+                align-content: center;
+                align-items: center;
+                justify-content: center;
+                justify-items: center;
+                margin-top: 20px;
+                
+            
+        }
+  }
+  @media(max-width:773px){
+    .categories-icons{
+        grid-template-columns: repeat(3 , 1fr);
+    }
+    .seven-icon{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        text-align: center;
+    }
+  }
+
+    @media(max-width:550px){
+        .categories-icons{
+            grid-template-columns: repeat(2 , 1fr)!important;
+        }
+        .seven-icon{
+            grid-column-start: 1;
+            grid-column-end: 3;
+            text-align: center;
+        }
+    }
+    @media(max-width:440px){
+        .categories-icons{
+            grid-template-columns:1fr !important
+        }
+        .seven-icon{
+            grid-column-start: 1;
+            grid-column-end: auto;
+          
+        }
+     
+    }
+  

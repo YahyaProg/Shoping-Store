@@ -1,0 +1,144 @@
+.cart-slider{
+    width: 100%;
+    height: 320px;
+    padding: 10px 0;
+    background-color: #45C1D1;
+    border-radius: 15px;
+    margin-bottom: 45px;
+}
+.cart-slider-container{
+    width: 96%;
+    margin: auto auto;
+ 
+    padding: 5px ;
+   height: 100%;
+   display: grid;
+   grid-template-columns: 200px 85%;
+   gap: 10px;
+}
+.slick-list{
+    width: 100%;
+}
+.poostre{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.cart-slider-items{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+}
+.item{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    height: 350px;
+    background-color: aliceblue;
+  
+}
+
+.item h1{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b1{
+    height:270px;
+    text-align: center;
+}
+.b1 .b2{
+    width: 90%;
+    height: 100%;
+   
+    margin: 0 auto;
+}
+.slider-item{
+    width: 100%;
+    height: 100%;
+   
+    border-radius: 15px;
+}
+.off-pric{
+    position: absolute;
+    right: 0;
+    top: 0px;
+}
+
+
+.poostre{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.poostre img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.poostre h2{
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: crimson;
+ 
+
+}
+.poostre button{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #ffff;
+    color: crimson;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+@media(max-width:1470px){
+    .cart-slider-container{
+        grid-template-columns: 170px 85%;
+    }
+}
+@media(max-width:1255px){
+    .cart-slider-container{
+        grid-template-columns: 170px 80%;
+    }
+}
+@media(max-width:1009px){
+    .cart-slider-container{
+        grid-template-columns: 170px 75%;
+    }
+}
+@media(max-width:767px){
+    .cart-slider-container{
+        grid-template-columns: 170px 70%;
+    }
+}
+@media(max-width:640px){
+    .cart-slider-container{
+        grid-template-columns: 170px 65%;
+    }
+}
+@media(max-width:545px){
+    .cart-slider-container{
+        grid-template-columns: 170px 55%;
+    }
+}
+@media(max-width:460px){
+    .cart-slider-container{
+        grid-template-columns: 150px 50%;
+    }
+}
+@media(max-width:360px){
+    .cart-slider-container{
+        grid-template-columns: 125px 45%;
+    }
+}

@@ -1,0 +1,104 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+.menu svg{
+    font-size: 18px;
+    cursor: pointer;
+}
+.menu img{
+    height: 25px;
+    cursor: pointer;
+    display: none;
+}
+.navbar-menu{
+    width: auto;
+  
+}
+.navbar-menu-section{
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu-section svg{
+    cursor:pointer;
+    font-size: 25px;
+    margin-right: 10px;
+    color: var(--clr-font);
+    margin-bottom: 7px;
+}
+.navbar-menu-section h3{
+    font-size: 20px;
+    color: var(--clr-font);
+    margin-right: 15px;
+    padding: 0;
+}
+.navbar-menu-section span:first-of-type{
+font-size: 18px;
+margin-bottom: 7px;
+cursor: pointer;
+color: var(--clr-font-ligh);
+
+}
+
+.navbar-menu-section span:last-child{
+    color: var(--clr-font-ligh);
+    font-size: 18px;
+   display: flex;
+   align-items: center;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.navbar-menu-section span:last-child svg{
+ margin-right: 0;
+ font-size: 18px;
+ margin-top: 3px;
+}
+.sliderMenu-btn svg{
+    display: none;
+}
+
+.showMenu{
+    position: absolute;
+    width: 100%;
+    
+}
+@media(max-width:900px){
+    .navbar-menu-section h3{
+        font-size: 18px;
+    }
+    .navbar-menu-section span:first-of-type{
+        font-size: 16px;
+    }
+    .navbar-menu-section span:last-child{
+        font-size: 16px;
+    }
+    .navbar-menu-section span:last-child svg{
+        font-size: 16px;
+    }
+}
+@media(max-width:767px){
+ .menu img{
+    display: block;
+ }
+ .navbar-menu-section h3 {
+    display: none;
+ }
+ .navbar-menu-section span{
+    display: none;
+ }
+ .biggBergur-menu svg{
+    display: none;
+ }
+ .navbar-menu-section span:last-child{
+    display: none;
+ }
+ .sliderMenu-btn svg{
+    display: block;
+}
+}

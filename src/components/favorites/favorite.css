@@ -1,0 +1,129 @@
+.favorit{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 15px;
+    margin-top: 40px;
+
+}
+.favoritItem{
+    background-color: var(--clr-bcg-cart-body);
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+}
+
+.favoritItem img{
+    width: 70%;
+    margin: 10px auto;
+    height: 200px;
+}
+.facorit-name p{
+width: 90%;
+height: 100px;
+margin: 0 auto;
+margin-top: 20px;
+font-size: 18px;
+
+}
+/* .price-show{
+    width: 100%;
+    text-align: start;
+} */
+.offer-price{
+    width: 90%;
+    margin: 15px auto 5px auto;
+    text-align: start;
+    height: 20px;
+}
+.offer-price span{
+    margin-right: 10px;
+    color: crimson;
+    padding: 0;
+
+}
+.price-favorit{
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    color: var(--clr-font);
+    text-align: start;
+    font-size: 20px;
+    font-weight: 700;
+}
+.buttons-favorit{
+    width: 85%;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.favorit-btn{
+    border-radius: 10px;
+    padding: 7px;
+    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.favorit-btn svg{
+    font-size: 17px;
+    margin-right: 3px;
+}
+ .Add{
+    width: 65%;
+    margin-right: 10px;
+    border: 2px solid crimson;
+    background-color: transparent;
+    color: crimson;
+}
+.Delete{
+    width: 35%;
+    border: 2px solid #9e9d9d;
+    background-color: transparent;
+    color: #9e9d9d;
+}
+.offer-favorit-absolut{
+    position: absolute;
+    top: -15px;
+    right: 0;
+}
+.offer-favorit-absolut img{
+    width: 50px;
+    height: 40px;
+}
+.empty-favorit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   margin-top: 50px;
+   color: var(--clr-font);
+   min-height: 40vh;
+}
+.empty-favorit h2{
+    color: #858585
+}
+@media(max-width:1280px){
+    .favorit{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media(max-width:950px){
+    .favorit{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:650px){
+    .favorit{
+        grid-template-columns:1fr
+    }
+    .favoritItem img{
+        width: 50%;
+    }
+    .offer-favorit-absolut img{
+        width: 70px;
+        height: 60px;
+    }
+}

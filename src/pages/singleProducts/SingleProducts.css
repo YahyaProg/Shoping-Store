@@ -1,0 +1,253 @@
+.single-product{
+    width: 100%;
+    margin-top: 100px;
+}
+.single-product-container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1fr;
+    gap: 100px;
+}
+
+.product-images{
+    width: 90%;
+}
+.product-image-container{
+    width: 100%;
+}
+
+.main-image{
+    width: 100%;
+    height: 350px;
+}
+.main-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.side-image{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cle-bcg-cart-info);
+    margin-top: 20px;
+}
+
+.side-image img{
+    width:20%;
+    height: 100px;
+    margin: 0 10px;
+    cursor: pointer;
+   
+}
+.border{
+    border: 2px solid red;
+ 
+}
+.ceprate{
+    width: 100%;
+    height: 2px;
+    background-color: #E1E4E7;
+}
+.info-container h3{
+    font-size: 18px;
+    color: var(--clr-font-light);
+}
+.rate{
+    display: flex;
+    margin-top: 20px;
+}
+.rate svg{
+    font-size: 16px;
+    background-color: #858585;
+    border-radius: 10px;
+}
+.rate p{
+    font-size: 18px ;
+    margin-left: 20px;
+    padding: 0;
+    color: var(--clr-font-light);
+    margin-top: 3px;
+}
+.info-container h2{
+    color: var(--clr-font);
+}
+.describ{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+.describ span{
+    font-size: 16px;
+    color: #737A87;
+    margin-right: 5px;
+}
+.describ h4{
+    color: var(--clr-font);
+    font-size: 16px;
+}
+
+.add-price{
+    display: flex;
+}
+.add-price h1{
+    color: var(--clr-font);
+}
+.add-price span{
+    color: red;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.add-to-cart-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    height: 370px;
+   
+}
+.add-to-cart{
+    width: 100%;
+    background-color: var(--clr-bcg-cart-body);
+    padding: 10px 15px;
+    border-radius: 15px;
+    color: var(--clr-font);
+}
+.add-price {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    height: 100px;
+}
+.add-to-cart h2{
+    color: var(--clr-font);
+    margin: 0;
+}
+.add-count{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    height: 100px;
+}
+.product-info{
+    position: relative
+}
+.add-count span{
+    font-size: 35px;
+    color: var(--clr-font);
+    margin: 0 20px 20px 20px;
+    cursor: pointer;
+
+}
+.add-count h1{
+    color: var(--clr-font);
+    font-weight: 700;
+
+}
+.addButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.addButton button{
+    padding: 10px 20px;
+    background-color: var(--clr-bcg-btn);
+    color: #ffff;
+}
+.addButton button svg{
+    font-size: 20px;
+    margin-right: 10px;
+}
+.addButton button{
+    font-size: 18px;
+}
+
+.single-prpduct-services{
+    border: 1px solid #858585;
+    margin-top: 20px;
+    border-radius: 15px;
+
+    height: 200px;
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.single-product h1{
+    margin: 50px 0;
+    color: var(--clr-font);
+}
+.comment_title h1{
+    padding: 0;
+    margin: 100px 0 25px 0;
+}
+
+@media(max-width:1017px){
+    .single-prpduct-services{
+        height: 300px;
+        padding: 20px 0;
+    }
+}
+@media(max-width:1350px){
+    .single-product-container{
+        grid-template-columns: 1fr 1.5fr;
+        gap: 20px 100px;
+    }
+    .add-to-cart-container{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height: 330px;
+        margin-bottom: 30px;
+    }
+    .add-to-cart{
+        width: 80%;
+        height: 370px;
+    }
+}
+
+@media(max-width:880px){
+    .single-product-container{
+        grid-template-columns: 1fr;
+    }
+    .add-to-cart-container{
+        grid-column-start: auto;
+        grid-column-end: auto;
+    }
+    .add-to-cart{
+        width: 100%;
+    }
+    .getback{
+        background-color: var(--clr-bcg-cart-body);
+    }
+
+    .product-info{
+        padding: 10px 15px;
+        border-radius: 15px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .main-image{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+    .main-image img{
+        width: 60%;
+        height: 250px;
+
+    }
+}
+
+@media(max-width:560px){
+    .add-to-cart{
+        width: 70%;
+    }
+}

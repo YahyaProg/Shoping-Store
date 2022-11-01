@@ -1,0 +1,28 @@
+.services{
+    width: 90%;
+    margin: 80px auto;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 0;
+}
+.services-item{
+    text-align: center;
+    padding: 0;
+}
+.services-item p{
+    font-size: 16px;
+    margin-top: 15px;
+    color: var( --clr-font);
+}
+.services-item{
+    text-align: center;
+}
+
+@media(max-width:1000px){
+    .services{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .services-item{
+        margin-bottom: 15px;
+    }
+}

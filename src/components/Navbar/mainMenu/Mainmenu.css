@@ -1,0 +1,146 @@
+.main-menu{
+    width: 100%;
+    height: auto;
+    background-color: var(--clr-bcg-big-menu);
+    color: var(--clr-font-big-menu);
+    position: absolute;
+    z-index: 10000;
+    top: 0;
+    padding: 20px;
+}
+.main-menu-item-title h3{
+    color: #858585;
+}
+
+.main-menu-content{
+    width: 100%;
+    margin: 15px auto;
+    display: grid;
+    grid-template-columns: 210px 1px 1fr;
+    height: 100%;
+    gap: 20px;
+   
+}
+.category{
+    width: 100%;
+}
+.category-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.category-item svg{
+    font-size: 30px;
+    font-weight: 1000;
+    transition: all 0.3s ease ;
+}
+.categories-title{
+    display: flex;
+   margin: auto 0;
+   
+    cursor: pointer;
+    width: 65%;
+}
+
+.category-item:hover svg {
+    color: crimson;
+}
+.category-item:hover span{
+    color: crimson;
+}
+
+.category-item:hover .arrow-svg svg{
+    color: crimson;
+}
+
+.categories-icon{
+    margin-right: 15px;
+    color:var( --clr-font) ;
+    display: flex;
+    align-items: center;
+}
+.categories-icon svg{
+    font-size: 25px;
+    transition: all 0.3s ease;
+}
+.category-title span{
+    font-size: 18px;
+    color:var( --clr-font) ;
+    transition: all 0.3s ease;
+}
+.seprate-menu{
+    width: 100%;
+    height: 100%;
+    background-color: #858585;
+
+}
+.main-menu-item{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 20px;
+   
+}
+.main-menu-item-title{
+    position: relative;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.main-menu-item-title::before{
+    content: '-';
+    width: 5px;
+    height: 15px;
+    background-color: crimson;
+    color: crimson;
+    position: absolute;
+    right: 102%;
+    top: 5px;
+    
+}
+
+.mani-menu-link{
+    cursor: pointer;
+    font-size: 18px;
+    color: var(--clr-font);
+}
+.mani-menu-link:hover{
+    color: crimson;
+    scale: 1.02;
+}
+
+@media(max-width:1150px){
+    .main-menu-item{
+        grid-template-columns: repeat(3 , 1fr);
+    }
+}
+
+@media(max-width:975px){
+    .main-menu-item{
+        grid-template-columns: repeat(2 , 1fr);
+    }
+    .main-menu-content{
+        height: 400px;
+        overflow: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:767px){
+    .main-menu{
+        display: none;
+    }
+}

@@ -1,0 +1,9 @@
+.empty-title{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.empty-title h3{
+    color: var(--clr-font);
+}

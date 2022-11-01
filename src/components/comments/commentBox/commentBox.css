@@ -1,0 +1,71 @@
+.commentForm{
+    width: 85%;
+    margin: 0 auto 20px auto;
+}
+.commentBox {
+    position: relative;
+  
+    
+}
+.commentBox input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid lightgray;
+    padding: 12px 20px 12px 0;
+    font-size: 18px;
+ 
+}
+
+.commentLine{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: var(--clr-font);
+    transform: scaleX(0);
+    animation: commentLineScaleIn 0.2s forwards;
+}
+.commentButtons{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.commentButtons button{
+padding: 10px 15px;
+margin: 10px 5px 10px 0;
+cursor: pointer;
+border-radius: 5px;
+color: white;
+font-weight: bold;
+background-color: rgb(4, 143, 4);
+}
+.sendButton:disabled{
+    background-color: #cccc;
+}
+.replybox{
+
+    width: 65% !important;
+    margin-left: 100px;
+}
+@keyframes commentLineScaleIn{
+    0%{
+        transform: scaleX(0);
+    }
+    100%{
+        transform: scaleX(1);
+    }
+}
+@media(max-width:800px){
+    .commentForm{
+        width: 100%;
+    }
+    .replybox{
+        width: 90% !important;
+       margin: 0 auto 0 auto;
+    }
+    .commentButtons button{
+        padding: 5px 10px;
+    }
+}

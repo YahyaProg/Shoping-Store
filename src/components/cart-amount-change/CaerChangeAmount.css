@@ -1,0 +1,46 @@
+.Change-amount{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.amount-change-section span{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+}
+.amount-change-section{
+    display: flex;
+    align-items: center;
+}
+
+.amount-change-section svg{
+    color: red;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 5px;
+}
+.amount-info-section h3{
+    font-size: 18px;
+    color: var(--clr-font);
+}
+.amount-info-section p{
+    color: var(--clr-font);
+    font-size: 18px;
+
+}
+.amount-info-section p span{
+    color: crimson;
+    font-size: 16px;
+}
+
+@media(max-width:1125px){
+    .Change-amount{
+        width: 100%;
+    }
+}
+/* @media(max-width:450px){
+    .Change-amount{
+            width: 80%;
+    }
+} */
